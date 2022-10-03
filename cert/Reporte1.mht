@@ -1,8 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <title>Skillt_Excel_2022</title>
+          <!-- add icon link -->
+  <link rel = "icon" href = 
+"https://skillt2022.github.io/evaluaciones/Media/icon.png" 
+  type = "image/x-icon">
+</head>
+<body>
+  
+
+
 MIME-Version: 1.0
 X-Document-Type: Workbook
 Content-Type: multipart/related; boundary="----=_NextPart_01D8D24F.95804350"
 
-Este documento es una página web de un solo archivo, también conocido como "archivo de almacenamiento web". Si está viendo este mensaje, su explorador o editor no admite archivos de almacenamiento web. Descargue un explorador que admita este tipo de archivos.
+Este documento es una pÃ¡gina web de un solo archivo, tambiÃ©n conocido como "archivo de almacenamiento web". Si estÃ¡ viendo este mensaje, su explorador o editor no admite archivos de almacenamiento web. Descargue un explorador que admita este tipo de archivos.
 
 ------=_NextPart_01D8D24F.95804350
 Content-Location: file:///C:/272ADCD1/Reporte1.htm
@@ -362,7 +374,7 @@ function fnSetActiveSheet(iSh)
 nheight=3D0>
  <noframes>
   <body>
-   <p>Esta página utiliza marcos que su explorador no admite.</p>
+   <p>Esta pÃ¡gina utiliza marcos que su explorador no admite.</p>
   </body>
  </noframes>
 </frameset>
@@ -1359,7 +1371,7 @@ pt'>&nbsp;</td>
   <td class=3Dxl65 width=3D46 style=3D'width:35pt'>&nbsp;</td>
   <td width=3D58 style=3D'width:44pt' align=3Dleft valign=3Dtop><!--[if gte=
  vml 1]><v:shape
-   id=3D"Rectángulo_x0020_14" o:spid=3D"_x0000_s1040" type=3D"#_x0000_t75" =
+   id=3D"RectÃ¡ngulo_x0020_14" o:spid=3D"_x0000_s1040" type=3D"#_x0000_t75" =
 style=3D'position:absolute;
    margin-left:0;margin-top:6.75pt;width:97.5pt;height:69.75pt;z-index:15;
    visibility:visible;mso-wrap-style:square;v-text-anchor:top' o:gfxdata=3D=
@@ -1415,7 +1427,7 @@ AGRycy9kb3ducmV2LnhtbFBLBQYAAAAABAAEAPUAAADKBwAAAAA=3D
   </v:shape><![endif]--><![if !vml]><span style=3D'mso-ignore:vglayout;
   position:absolute;z-index:15;margin-left:0px;margin-top:9px;width:130px;
   height:93px'><img width=3D130 height=3D93 src=3D"Reporte1_image009.png" v=
-:shapes=3D"Rectángulo_x0020_14"></span><![endif]><span
+:shapes=3D"RectÃ¡ngulo_x0020_14"></span><![endif]><span
   style=3D'mso-ignore:vglayout2'>
   <table cellpadding=3D0 cellspacing=3D0>
    <tr>
@@ -1686,7 +1698,7 @@ AKYFAAAAAA=3D=3D
   <td colspan=3D3 class=3Dxl85>Completado</td>
   <td class=3Dxl85>&nbsp;</td>
   <td colspan=3D2 style=3D'mso-ignore:colspan'></td>
-  <td class=3Dxl72>Fecha de finalización:</td>
+  <td class=3Dxl72>Fecha de finalizaciÃ³n:</td>
   <td class=3Dxl79>10/05/2022 11:41</td>
   <td class=3Dxl79>&nbsp;</td>
   <td class=3Dxl79>&nbsp;</td>
@@ -1802,7 +1814,7 @@ cmVscy9waWN0dXJleG1sLnhtbC5yZWxzUEsFBgAAAAAGAAYAhAEAAHwHAAAAAA=3D=3D
   <td class=3Dxl84>&nbsp;</td>
   <td></td>
   <td class=3Dxl91></td>
-  <td class=3Dxl72>Duración</td>
+  <td class=3Dxl72>DuraciÃ³n</td>
   <td class=3Dxl93>00:09:46</td>
   <td class=3Dxl94>Restante</td>
   <td class=3Dxl94>Media</td>
@@ -1814,7 +1826,7 @@ cmVscy9waWN0dXJleG1sLnhtbC5yZWxzUEsFBgAAAAAGAAYAhAEAAHwHAAAAAA=3D=3D
   <td height=3D20 colspan=3D16 style=3D'height:15.0pt;mso-ignore:colspan'><=
 /td>
   <td class=3Dxl91></td>
-  <td class=3Dxl95>Teórica</td>
+  <td class=3Dxl95>TeÃ³rica</td>
   <td class=3Dxl96>75%</td>
   <td class=3Dxl96>25%</td>
   <td class=3Dxl96>66%</td>
@@ -1849,7 +1861,7 @@ cmVscy9waWN0dXJleG1sLnhtbC5yZWxzUEsFBgAAAAAGAAYAhAEAAHwHAAAAAA=3D=3D
   <td class=3Dxl81>&nbsp;</td>
   <td class=3Dxl81>&nbsp;</td>
   <td></td>
-  <td class=3Dxl82>Gráficos</td>
+  <td class=3Dxl82>GrÃ¡ficos</td>
   <td class=3Dxl96>70%</td>
   <td class=3Dxl96>30%</td>
   <td class=3Dxl96>71%</td>
@@ -1888,7 +1900,7 @@ cmVscy9waWN0dXJleG1sLnhtbC5yZWxzUEsFBgAAAAAGAAYAhAEAAHwHAAAAAA=3D=3D
   <td class=3Dxl84>&nbsp;</td>
   <td class=3Dxl84>&nbsp;</td>
   <td class=3Dxl84>&nbsp;</td>
-  <td align=3Dleft valign=3Dtop><!--[if gte vml 1]><v:shape id=3D"Gráfico_x=
+  <td align=3Dleft valign=3Dtop><!--[if gte vml 1]><v:shape id=3D"GrÃ¡fico_x=
 0020_2"
    o:spid=3D"_x0000_s1029" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:8.25pt;margin-top:4.5pt;width:359.25pt;height:3in;z-index:4;
@@ -2008,7 +2020,7 @@ LnJlbHNQSwUGAAAAAAkACQBSAgAATRUAAAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Gráfico_x0020_3" o:spid=3D"_x0000_s1030" type=3D=
+  </v:shape><v:shape id=3D"GrÃ¡fico_x0020_3" o:spid=3D"_x0000_s1030" type=3D=
 "#_x0000_t75"
    style=3D'position:absolute;margin-left:8.25pt;margin-top:4.5pt;width:362=
 .25pt;
@@ -2129,7 +2141,7 @@ AABkcnMvY2hhcnRzL19yZWxzL2NoYXJ0MS54bWwucmVsc1BLBQYAAAAACQAJAFICAABqFQAAAAA=
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_16" o:spid=3D"_x0000_s1042" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_16" o:spid=3D"_x0000_s1042" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:13.5pt;margin-top:12.75pt;width:7=
 1.25pt;
@@ -2180,7 +2192,7 @@ AAA=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_17" o:spid=3D"_x0000_s1043" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_17" o:spid=3D"_x0000_s1043" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:14.25pt;margin-top:61.5pt;width:7=
 1.25pt;
@@ -2231,7 +2243,7 @@ AAAAAgcAAAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_18" o:spid=3D"_x0000_s1044" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_18" o:spid=3D"_x0000_s1044" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:13.5pt;margin-top:108.75pt;width:=
 1in;
@@ -2282,7 +2294,7 @@ AAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_19" o:spid=3D"_x0000_s1045" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_19" o:spid=3D"_x0000_s1045" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:13.5pt;margin-top:157.5pt;width:7=
 1.25pt;
@@ -2333,7 +2345,7 @@ APUAAAAEBwAAAAA=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_20" o:spid=3D"_x0000_s1046" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_20" o:spid=3D"_x0000_s1046" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:282.75pt;margin-top:12.75pt;width=
 :77.25pt;
@@ -2384,7 +2396,7 @@ AAAHAAAAAA=3D=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_21" o:spid=3D"_x0000_s1047" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_21" o:spid=3D"_x0000_s1047" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:284.25pt;margin-top:60.75pt;width=
 :78pt;
@@ -2435,7 +2447,7 @@ AAABBwAAAAA=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_22" o:spid=3D"_x0000_s1048" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_22" o:spid=3D"_x0000_s1048" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:284.25pt;margin-top:108.75pt;widt=
 h:77.25pt;
@@ -2486,7 +2498,7 @@ JAEAAJ4BAAAPAAAAAAAAAAAAAAAAAK4FAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAQABAD1AAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_23" o:spid=3D"_x0000_s1049" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_23" o:spid=3D"_x0000_s1049" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:284.25pt;margin-top:159pt;width:7=
 7.25pt;
@@ -2736,9 +2748,9 @@ ZgUAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAABAAEAPUAAACwBgAAAAA=3D
   </v:shape><![endif]--><![if !vml]><span style=3D'mso-ignore:vglayout;
   position:absolute;z-index:4;margin-left:11px;margin-top:6px;width:483px;
   height:288px'><img width=3D483 height=3D288 src=3D"Reporte1_image030.png"=
- v:shapes=3D"Gráfico_x0020_2 Gráfico_x0020_3 Rectángulo_x0020_16 Rectángulo=
-_x0020_17 Rectángulo_x0020_18 Rectángulo_x0020_19 Rectángulo_x0020_20 Rectá=
-ngulo_x0020_21 Rectángulo_x0020_22 Rectángulo_x0020_23 CuadroTexto_x0020_30=
+ v:shapes=3D"GrÃ¡fico_x0020_2 GrÃ¡fico_x0020_3 RectÃ¡ngulo_x0020_16 RectÃ¡ngulo=
+_x0020_17 RectÃ¡ngulo_x0020_18 RectÃ¡ngulo_x0020_19 RectÃ¡ngulo_x0020_20 RectÃ¡=
+ngulo_x0020_21 RectÃ¡ngulo_x0020_22 RectÃ¡ngulo_x0020_23 CuadroTexto_x0020_30=
  CuadroTexto_x0020_31 CuadroTexto_x0020_32 CuadroTexto_x0020_33"></span><![=
 endif]><span
   style=3D'mso-ignore:vglayout2'>
@@ -2761,8 +2773,8 @@ pt'>&nbsp;</td>
   <td></td>
   <td class=3Dxl91></td>
   <td class=3Dxl82>Campo 5</td>
-  <td class=3Dxl96>#¡NUM!</td>
-  <td class=3Dxl96>#¡NUM!</td>
+  <td class=3Dxl96>#Â¡NUM!</td>
+  <td class=3Dxl96>#Â¡NUM!</td>
   <td class=3Dxl96>0%</td>
   <td class=3Dxl96>1%</td>
   <td class=3Dxl96>100%</td>
@@ -2787,8 +2799,8 @@ pt'>&nbsp;</td>
   <td></td>
   <td class=3Dxl91></td>
   <td class=3Dxl72>Campo 6</td>
-  <td class=3Dxl98>#¡NUM!</td>
-  <td class=3Dxl98>#¡NUM!</td>
+  <td class=3Dxl98>#Â¡NUM!</td>
+  <td class=3Dxl98>#Â¡NUM!</td>
   <td class=3Dxl98>0%</td>
   <td class=3Dxl96>1%</td>
   <td class=3Dxl96>100%</td>
@@ -2800,7 +2812,7 @@ pt'>&nbsp;</td>
   <td colspan=3D2 rowspan=3D11 height=3D220 class=3Dxl84 width=3D235 style=
 =3D'mso-ignore:
   colspan-rowspan;height:165.0pt;width:177pt'><!--[if gte vml 1]><v:shape i=
-d=3D"Gráfico_x0020_24"
+d=3D"GrÃ¡fico_x0020_24"
    o:spid=3D"_x0000_s1050" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:1.5pt;margin-top:0;width:158.25pt;height:150.75pt;z-index:25;
    visibility:visible' o:gfxdata=3D"UEsDBBQABgAIAAAAIQDw/NyPOgEAACwDAAATAAA=
@@ -2908,7 +2920,7 @@ Y2hhcnRzL19yZWxzL2NoYXJ0MS54bWwucmVsc1BLBQYAAAAACQAJAFICAADxEgAAAAA=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_25" o:spid=3D"_x0000_s1051" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_25" o:spid=3D"_x0000_s1051" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:26.25pt;margin-top:48pt;width:112=
 .5pt;
@@ -2968,7 +2980,7 @@ AAAAOwcAAAAA
    <tr>
     <td></td>
     <td><img width=3D211 height=3D201 src=3D"Reporte1_image033.png" v:shape=
-s=3D"Gráfico_x0020_24 Rectángulo_x0020_25"></td>
+s=3D"GrÃ¡fico_x0020_24 RectÃ¡ngulo_x0020_25"></td>
     <td width=3D22></td>
    </tr>
    <tr>
@@ -2979,7 +2991,7 @@ s=3D"Gráfico_x0020_24 Rectángulo_x0020_25"></td>
 :165.0pt'></span><![endif]--></td>
   <td rowspan=3D5 height=3D100 class=3Dxl99 width=3D215 style=3D'mso-ignore=
 :colspan-rowspan;
-  height:75.0pt;width:161pt'><!--[if gte vml 1]><v:shape id=3D"Rectángulo_x=
+  height:75.0pt;width:161pt'><!--[if gte vml 1]><v:shape id=3D"RectÃ¡ngulo_x=
 0020_43"
    o:spid=3D"_x0000_s1066" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:0;margin-top:9.75pt;width:160.5pt;height:30.75pt;z-index:41;
@@ -3029,7 +3041,7 @@ AJ4FAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAQABAD1AAAA6gYAAAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_44" o:spid=3D"_x0000_s1067" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_44" o:spid=3D"_x0000_s1067" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:0;margin-top:33pt;width:160.5pt;
    height:32.25pt;z-index:42;visibility:visible;mso-wrap-style:square;
@@ -3087,7 +3099,7 @@ BQAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAAEAAQA9QAAACEHAAAAAA=3D=3D
    <tr>
     <td></td>
     <td><img width=3D214 height=3D74 src=3D"Reporte1_image036.png" v:shapes=
-=3D"Rectángulo_x0020_43 Rectángulo_x0020_44"></td>
+=3D"RectÃ¡ngulo_x0020_43 RectÃ¡ngulo_x0020_44"></td>
     <td width=3D1></td>
    </tr>
    <tr>
@@ -3205,7 +3217,7 @@ BQAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAAEAAQA9QAAACEHAAAAAA=3D=3D
   <td class=3Dxl84>&nbsp;</td>
   <td rowspan=3D5 height=3D100 class=3Dxl99 width=3D215 style=3D'mso-ignore=
 :colspan-rowspan;
-  height:75.0pt;width:161pt'><!--[if gte vml 1]><v:shape id=3D"Rectángulo_x=
+  height:75.0pt;width:161pt'><!--[if gte vml 1]><v:shape id=3D"RectÃ¡ngulo_x=
 0020_15"
    o:spid=3D"_x0000_s1041" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:1.5pt;margin-top:7.5pt;width:159.75pt;height:30.75pt;z-index=
@@ -3255,7 +3267,7 @@ AAAAAAAAZwUAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAABAAEAPUAAAC2BgAAAAA=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_42" o:spid=3D"_x0000_s1065" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_42" o:spid=3D"_x0000_s1065" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:1.5pt;margin-top:30.75pt;width:15=
 9.75pt;
@@ -3314,7 +3326,7 @@ AGRycy9kb3ducmV2LnhtbFBLBQYAAAAABAAEAPUAAAAfBwAAAAA=3D
    <tr>
     <td></td>
     <td><img width=3D213 height=3D75 src=3D"Reporte1_image039.png" v:shapes=
-=3D"Rectángulo_x0020_15 Rectángulo_x0020_42"></td>
+=3D"RectÃ¡ngulo_x0020_15 RectÃ¡ngulo_x0020_42"></td>
     <td width=3D0></td>
    </tr>
    <tr>
@@ -3498,7 +3510,7 @@ bsp;</u></td>
   <td class=3Dxl84>&nbsp;</td>
   <td width=3D170 style=3D'width:128pt' align=3Dleft valign=3Dtop><!--[if g=
 te vml 1]><v:shape
-   id=3D"Gráfico_x0020_4" o:spid=3D"_x0000_s1031" type=3D"#_x0000_t75" styl=
+   id=3D"GrÃ¡fico_x0020_4" o:spid=3D"_x0000_s1031" type=3D"#_x0000_t75" styl=
 e=3D'position:absolute;
    margin-left:3pt;margin-top:39pt;width:702.75pt;height:38.25pt;z-index:6;
    visibility:visible' o:gfxdata=3D"UEsDBBQABgAIAAAAIQDw/NyPOgEAACwDAAATAAA=
@@ -3614,7 +3626,7 @@ L19yZWxzL2NoYXJ0MS54bWwucmVsc1BLBQYAAAAACQAJAFICAACzFAAAAAA=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Gráfico_x0020_5" o:spid=3D"_x0000_s1032" type=3D=
+  </v:shape><v:shape id=3D"GrÃ¡fico_x0020_5" o:spid=3D"_x0000_s1032" type=3D=
 "#_x0000_t75"
    style=3D'position:absolute;margin-left:1.5pt;margin-top:21.75pt;width:70=
 5pt;
@@ -3727,7 +3739,7 @@ cy9fcmVscy9jaGFydDEueG1sLnJlbHNQSwUGAAAAAAkACQBSAgAA0BMAAAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Bocadillo_x003a__x0020_rectángulo_x0020_con_x002=
+  </v:shape><v:shape id=3D"Bocadillo_x003a__x0020_rectÃ¡ngulo_x0020_con_x002=
 0_esquinas_x0020_redondeadas_x0020_54"
    o:spid=3D"_x0000_s1052" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:413.25pt;margin-top:71.25pt;width:57pt;height:31.5pt;z-index=
@@ -3822,7 +3834,7 @@ eG1sUEsFBgAAAAAEAAQA9QAAAKUQAAAAAA=3D=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_27" o:spid=3D"_x0000_s1053" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_27" o:spid=3D"_x0000_s1053" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:6.75pt;margin-top:62.25pt;width:5=
 7pt;
@@ -3871,7 +3883,7 @@ di54bWxQSwUGAAAAAAQABAD1AAAAogYAAAAA
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Rectángulo_x0020_28" o:spid=3D"_x0000_s1054" typ=
+  </v:shape><v:shape id=3D"RectÃ¡ngulo_x0020_28" o:spid=3D"_x0000_s1054" typ=
 e=3D"#_x0000_t75"
    style=3D'position:absolute;margin-left:642.75pt;margin-top:61.5pt;width:=
 69pt;
@@ -3920,7 +3932,7 @@ ZHJzL2Rvd25yZXYueG1sUEsFBgAAAAAEAAQA9QAAAKwGAAAAAA=3D=3D
     <x:CF>Bitmap</x:CF>
     <x:AutoPict/>
    </x:ClientData>
-  </v:shape><v:shape id=3D"Bocadillo_x003a__x0020_rectángulo_x0020_con_x002=
+  </v:shape><v:shape id=3D"Bocadillo_x003a__x0020_rectÃ¡ngulo_x0020_con_x002=
 0_esquinas_x0020_redondeadas_x0020_42"
    o:spid=3D"_x0000_s1055" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:505.5pt;margin-top:13.5pt;width:87pt;height:33.75pt;z-index:=
@@ -4097,9 +4109,9 @@ SwUGAAAAAAQABAD5AAAAtAUAAAAA
   </v:shape><![endif]--><![if !vml]><span style=3D'mso-ignore:vglayout;
   position:absolute;z-index:6;margin-left:2px;margin-top:18px;width:947px;
   height:119px'><img width=3D947 height=3D119 src=3D"Reporte1_image048.png"=
- v:shapes=3D"Gráfico_x0020_4 Gráfico_x0020_5 Bocadillo_x003a__x0020_rectáng=
-ulo_x0020_con_x0020_esquinas_x0020_redondeadas_x0020_54 Rectángulo_x0020_27=
- Rectángulo_x0020_28 Bocadillo_x003a__x0020_rectángulo_x0020_con_x0020_esqu=
+ v:shapes=3D"GrÃ¡fico_x0020_4 GrÃ¡fico_x0020_5 Bocadillo_x003a__x0020_rectÃ¡ng=
+ulo_x0020_con_x0020_esquinas_x0020_redondeadas_x0020_54 RectÃ¡ngulo_x0020_27=
+ RectÃ¡ngulo_x0020_28 Bocadillo_x003a__x0020_rectÃ¡ngulo_x0020_con_x0020_esqu=
 inas_x0020_redondeadas_x0020_42 Conector_x0020_recto_x0020_36 Conector_x002=
 0_recto_x0020_37"></span><![endif]><span
   style=3D'mso-ignore:vglayout2'>
@@ -4143,7 +4155,7 @@ inas_x0020_redondeadas_x0020_42 Conector_x0020_recto_x0020_36 Conector_x002=
   <td class=3Dxl107 width=3D58 style=3D'width:44pt'>&nbsp;</td>
   <td class=3Dxl107 width=3D34 style=3D'width:26pt'>&nbsp;</td>
   <td colspan=3D2 style=3D'mso-ignore:colspan'></td>
-  <td class=3Dxl72>Duración Promedio</td>
+  <td class=3Dxl72>DuraciÃ³n Promedio</td>
   <td class=3Dxl93>00:07:59</td>
   <td colspan=3D4 style=3D'mso-ignore:colspan'></td>
  </tr>
@@ -4267,7 +4279,7 @@ inas_x0020_redondeadas_x0020_42 Conector_x0020_recto_x0020_36 Conector_x002=
  </tr>
  <tr height=3D20 style=3D'mso-height-source:userset;height:15.0pt'>
   <td height=3D20 style=3D'height:15.0pt'></td>
-  <td align=3Dleft valign=3Dtop><!--[if gte vml 1]><v:shape id=3D"Gráfico_x=
+  <td align=3Dleft valign=3Dtop><!--[if gte vml 1]><v:shape id=3D"GrÃ¡fico_x=
 0020_1"
    o:spid=3D"_x0000_s1028" type=3D"#_x0000_t75" style=3D'position:absolute;
    margin-left:2.25pt;margin-top:10.5pt;width:407.25pt;height:278.25pt;
@@ -4655,7 +4667,7 @@ AAAAsA0AAAAA
   </v:shape><![endif]--><![if !vml]><span style=3D'mso-ignore:vglayout;
   position:absolute;z-index:3;margin-left:3px;margin-top:14px;width:677px;
   height:371px'><img width=3D677 height=3D371 src=3D"Reporte1_image053.png"=
- v:shapes=3D"Gráfico_x0020_1 _x0000_s1060 CuadroTexto_x0020_35 _x0000_s1064=
+ v:shapes=3D"GrÃ¡fico_x0020_1 _x0000_s1060 CuadroTexto_x0020_35 _x0000_s1064=
 "></span><![endif]><span
   style=3D'mso-ignore:vglayout2'>
   <table cellpadding=3D0 cellspacing=3D0>
@@ -4725,7 +4737,7 @@ pt'>&nbsp;</td>
   <td colspan=3D7 rowspan=3D14 class=3Dxl110 width=3D385 style=3D'width:291=
 pt'>Juancho
   pertenece al 18% de los evaluados con un puntaje total de 79 sobre 100.
-  Completó su test en 9 minutos.</td>
+  CompletÃ³ su test en 9 minutos.</td>
   <td class=3Dxl111 width=3D34 style=3D'width:26pt'>&nbsp;</td>
   <td colspan=3D8 style=3D'mso-ignore:colspan'></td>
  </tr>
@@ -7764,3 +7776,6 @@ Content-Type: text/xml; charset="utf-8"
  <o:File HRef=3D"Reporte1_filelist.xml"/>
 </xml>
 ------=_NextPart_01D8D24F.95804350--
+
+
+</body>
