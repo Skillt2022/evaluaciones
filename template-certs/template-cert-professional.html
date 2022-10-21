@@ -1,294 +1,383 @@
-
 <!DOCTYPE html>
 <html lang="es-ES" data-website-id="1" data-main-object="website.page(5,)" data-oe-company-name="Skillt">
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="generator" content="Odoo"/>
-        <meta name="robots" content="noindex"/>
-            
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="template-cert-professional | Skillt"/>
-        <meta property="og:site_name" content="Skillt"/>
-        <meta property="og:url" content="https://skillt.odoo.com/cert/template-cert-professional"/>
-        <meta property="og:image" content="https://skillt.odoo.com/web/image/website/1/logo?unique=5af8c8c"/>
-            
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:title" content="template-cert-professional | Skillt"/>
-        <meta name="twitter:image" content="https://skillt.odoo.com/web/image/website/1/logo/300x300?unique=5af8c8c"/>
+<!--
+  VARS
+  {{cert_user_name}}
+  {{cert_id}}
+  {{cert_url_id}}
+-->
 
-        
-        <link rel="canonical" href="https://skillt.io/cert/template-cert-professional"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
-        <title> template-cert-professional | Skillt </title>
-        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=5af8c8c"/>
-        <link rel="preload" href="/web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
-        <link type="text/css" rel="stylesheet" href="/web/assets/480-f72e74b/1/web.assets_common.min.css" data-asset-bundle="web.assets_common" data-asset-version="f72e74b"/>
-        <link type="text/css" rel="stylesheet" href="/web/assets/467-322153e/1/web.assets_frontend.min.css" data-asset-bundle="web.assets_frontend" data-asset-version="322153e"/>
-        <script id="web.layout.odooscript" type="text/javascript">
-            var odoo = {
-                csrf_token: "8465b9902203ce3f723d15720ee01403934310e6o1697743139",
-                debug: "",
-            };
-        </script>
-        <script type="text/javascript">
-            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "translationURL": "/website/translations", "cache_hashes": {"translations": "4af0d9896f585b938a312d3c10251cc5217333b1"}, "geoip_country_code": "CL"};
-            if (!/(^|;\s)tz=/.test(document.cookie)) {
-                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
-                document.cookie = `tz=${userTZ}; path=/`;
-            }
-        </script>
-        <script defer="defer" type="text/javascript" src="/web/assets/188-1a4f877/1/web.assets_common_minimal.min.js" data-asset-bundle="web.assets_common_minimal" data-asset-version="1a4f877"></script>
-        <script defer="defer" type="text/javascript" src="/web/assets/189-8f9a0ff/1/web.assets_frontend_minimal.min.js" data-asset-bundle="web.assets_frontend_minimal" data-asset-version="8f9a0ff"></script>
-        <script defer="defer" type="text/javascript" data-src="/web/assets/468-088a8a7/1/web.assets_common_lazy.min.js" data-asset-bundle="web.assets_common_lazy" data-asset-version="088a8a7"></script>
-        <script defer="defer" type="text/javascript" data-src="/web/assets/469-8ed5d31/1/web.assets_frontend_lazy.min.js" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="8ed5d31"></script>
-        
-        
-    </head>
-    <body class="">
-        <div id="wrapwrap" class="   ">
-                <header id="top" data-anchor="true" data-name="Header" class="  o_header_standard">
-    <nav data-name="Navbar" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc shadow-sm">
-        
-            <div id="top_menu_container" class="container justify-content-start justify-content-lg-between">
-                
-    <a href="/" class="navbar-brand logo mr-4">
-            <span role="img" aria-label="Logo of Skillt" title="Skillt"><img src="/web/image/website/1/logo/Skillt?unique=5af8c8c" class="img img-fluid" alt="Skillt" loading="lazy"/></span>
-        </a>
-    
-                
-                <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
-    <ul id="top_menu" class="nav navbar-nav o_menu_loading flex-grow-1">
-        
-                        
-                        
-            <li class="nav-item ml-lg-auto o_no_autohide_item">
-                <a href="/web/login" class="nav-link font-weight-bold">Identificarse</a>
-            </li>
-                        
-    </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
 
-                    
-                </div>
-                
-    <div class="oe_structure oe_structure_solo ml-lg-4">
-            
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Certificado de Habilidades en Microsoft Excel | Skillt" />
+  <meta property="og:site_name" content="Skillt" />
+  <meta property="og:url" content="https://skillt.io/cert/{{cert_url_id}}" />
+  <meta property="og:image" content="https://skillt.io/cert/assets/skillt-og-professional.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Certificado de Habilidades en Microsoft Excel | Skillt" />
+  <meta name="twitter:image" content="https://skillt.io/cert/assets/skillt-og-professional.jpg" />
+
+  <link rel="canonical" href="https://skillt.io/cert/{{cert_url_id}}" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <title>Certificado de Habilidades en Microsoft Excel | Skillt </title>
+  <link type="image/x-icon" rel="shortcut icon" href="https://skillt.io/cert/assets/favicon.png" />
+  <link rel="preload" href="https://skillt.io/cert/assets/fontawesome-webfont.woff2?v=4.7.0" as="font"
+    crossorigin="" />
+  <link type="text/css" rel="stylesheet" href="https://skillt.io/cert/assets/web.assets_common.min.css"
+    data-asset-bundle="web.assets_common" data-asset-version="f72e74b" />
+  <link type="text/css" rel="stylesheet" href="https://skillt.io/cert/assets/web.assets_frontend.min.css"
+    data-asset-bundle="web.assets_frontend" data-asset-version="322153e" />
+  <script defer="defer" type="text/javascript" src="https://skillt.io/cert/assets/web.assets_common_minimal.min.js"
+    data-asset-bundle="web.assets_common_minimal" data-asset-version="1a4f877"></script>
+  <script defer="defer" type="text/javascript" src="https://skillt.io/cert/assets/web.assets_frontend_minimal.min.js"
+    data-asset-bundle="web.assets_frontend_minimal" data-asset-version="8f9a0ff"></script>
+  <script defer="defer" type="text/javascript" data-src="https://skillt.io/cert/assets/web.assets_common_lazy.min.js"
+    data-asset-bundle="web.assets_common_lazy" data-asset-version="088a8a7"></script>
+  <script defer="defer" type="text/javascript"
+    data-src="https://skillt.io/cert/assets/web.assets_frontend_lazy.min.js"
+    data-asset-bundle="web.assets_frontend_lazy" data-asset-version="8ed5d31"></script>
+</head>
+
+<body class="">
+  <div id="wrapwrap" class="   ">
+    <header id="top" data-anchor="true" data-name="Header" class="  o_header_standard">
+      <nav data-name="Navbar" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc shadow-sm">
+
+        <div id="top_menu_container" class="container justify-content-start justify-content-lg-between">
+
+          <a href="/" class="navbar-brand logo mr-4">
+            <span role="img" aria-label="Logo of Skillt" title="Skillt"><img
+                src="https://skillt.io/cert/assets/skillt-logo-ligth.png" class="img img-fluid"
+                alt="Skillt" loading="lazy" /></span>
+          </a>
+
+
+          <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
+            <ul id="top_menu" class="nav navbar-nav o_menu_loading flex-grow-1">
+            </ul>
+
+
+          </div>
+
+          <div class="oe_structure oe_structure_solo ml-lg-4">
+
+          </div>
+
+          <button type="button" data-toggle="collapse" data-target="#top_menu_collapse"
+            class="navbar-toggler ml-auto">
+            <span class="navbar-toggler-icon o_not_editable"></span>
+          </button>
         </div>
-                
-    <button type="button" data-toggle="collapse" data-target="#top_menu_collapse" class="navbar-toggler ml-auto">
-        <span class="navbar-toggler-icon o_not_editable"></span>
-    </button>
-            </div>
-    </nav>
+      </nav>
     </header>
-                <main>
-                    
-    <div id="wrap" class="oe_structure oe_empty">
-      <section class="s_text_image pt64 o_colored_level pb72 o_cc o_cc2 oe_img_bg o_bg_img_center" data-snippet="s_text_image" data-name="Text - Image" style="position: relative; background-image: url(&#34;/web/image/365-63af2d14/stingers-professional.png&#34;); background-position: 50% 0%; background-color: rgb(255, 255, 255) !important;" data-oe-shape-data="{&#34;shape&#34;:&#34;web_editor/Wavy/11&#34;,&#34;flip&#34;:[]}" data-original-id="364" data-original-src="/web/image/364-4bd8084e/stingers-professional.png" data-mimetype="image/png" data-resize-width="1018">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="pt16 pb16 o_colored_level o_animating col-lg-7" style="">
-              <h4>
-                <span style="font-size: 36px;">
-                  <font class="text-gradient" style="background-image: linear-gradient(90deg, rgb(199, 45, 91) 20%, rgb(66, 66, 66) 100%);">Certificado Skillt de</font>
-                </span>
-                <br/>
-                <span style="font-size: 36px;">
-                  <font class="text-gradient" style="background-image: linear-gradient(90deg, rgb(199, 45, 91) 20%, rgb(66, 66, 66) 100%);">Habilidades en Microsoft Excel</font>
-                </span>
-              </h4>
-              <p>
-                <br/>
-              </p>
-              <p>
-                <font style="color: rgb(79, 79, 79);">Certificamos que</font>
-              </p>
-              <p>
-                <span style="font-size: 24px;">
-                  <font style="color: rgb(79, 79, 79);" data-original-title="" title="" aria-describedby="tooltip613888">Nombre</font>
-                </span>
-                <br/>
-              </p>
-              <p>
-                <font style="color: rgb(79, 79, 79);">ha completado con gran éxito la Evaluación Skillt de Habilidades en Microsoft Excel y ha obtenido el nivel </font>
-                <strong>
-                  <font style="color: rgb(79, 79, 79);">Professional Skilled en Microsoft Excel.</font>
-                </strong>
-              </p>
-            </div>
-            <div class="pt16 pb16 o_colored_level col-lg-5">
-              <img src="/web/image/300-e71ff692/skillt-professional-skilled-badge.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip479083" data-original-id="299" data-original-src="/web/image/299-ad9bcdbd/skillt-professional-skilled-badge.png" data-mimetype="image/png" data-resize-width="340"/>
+    <main>
+
+      <div id="wrap" class="oe_structure oe_empty">
+        <section class="s_text_image pt64 o_colored_level pb72 o_cc o_cc2 oe_img_bg o_bg_img_center"
+          data-snippet="s_text_image" data-name="Text - Image"
+          style="position: relative; background-image: url(https://skillt.io/cert/assets/stingers-professional.png); background-position: 50% 0%; background-color: rgb(255, 255, 255) !important;"
+          data-oe-shape-data="{&#34;shape&#34;:&#34;web_editor/Wavy/11&#34;,&#34;flip&#34;:[]}"
+          data-original-id="364" data-original-src="https://skillt.io/cert/assets/stingers-professional.png"
+          data-mimetype="image/png" data-resize-width="1018">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="pt16 pb16 o_colored_level o_animating col-lg-7" style="">
+                <h4>
+                  <span style="font-size: 36px;">
+                    <font class="text-gradient"
+                      style="background-image: linear-gradient(90deg, rgb(199, 45, 91) 20%, rgb(66, 66, 66) 100%);">
+                      Certificado Skillt de</font>
+                  </span>
+                  <br />
+                  <span style="font-size: 36px;">
+                    <font class="text-gradient"
+                      style="background-image: linear-gradient(90deg, rgb(199, 45, 91) 20%, rgb(66, 66, 66) 100%);">
+                      Habilidades en Microsoft Excel</font>
+                  </span>
+                </h4>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  <font style="color: rgb(79, 79, 79);">Certificamos que</font>
+                </p>
+                <p>
+                  <span style="font-size: 24px;">
+                    <font style="color: rgb(79, 79, 79);" data-original-title="" title=""
+                      aria-describedby="tooltip613888">{{cert_user_name}}</font>
+                  </span>
+                  <br />
+                </p>
+                <p>
+                  <font style="color: rgb(79, 79, 79);">ha completado con gran éxito la Evaluación
+                    Skillt de Habilidades en Microsoft Excel y ha obtenido el nivel </font>
+                  <strong>
+                    <font style="color: rgb(79, 79, 79);">Professional Skilled en Microsoft Excel.
+                    </font>
+                  </strong>
+                </p>
+              </div>
+              <div class="pt16 pb16 o_colored_level col-lg-5">
+                <img src="https://skillt.io/cert/assets/skillt-professional-skilled-badge.png"
+                  class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title=""
+                  title="" aria-describedby="tooltip479083" data-original-id="299"
+                  data-original-src="https://skillt.io/cert/assets/skillt-professional-skilled-badge.png"
+                  data-mimetype="image/png" data-resize-width="340" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="s_text_block o_colored_level pb24 pt32 bg-600" data-snippet="s_text_block" data-name="Text" style="position: relative; background-image: none;" data-oe-shape-data="{&#34;shape&#34;:&#34;web_editor/Airy/07&#34;,&#34;colors&#34;:{&#34;c2&#34;:&#34;#CED4DA&#34;},&#34;flip&#34;:[]}">
-        <div class="o_we_shape o_web_editor_Airy_07" style="background-image: url(&#34;/web_editor/shape/web_editor/Airy/07.svg?c2=%23CED4DA&#34;);"></div>
-        <div class="s_allow_columns container">
-          <div class="row">
-            <div class="o_colored_level col-lg-12" style="">
-              <p style="text-align: center;">
-                <font style="" class="text-o-color-4">ID Certificado: id&nbsp;</font>
-              </p>
-              <p style="text-align: center;">
-                <span style="font-size: 14px;">Otorgado: 19&nbsp;de octubre&nbsp;de 2022&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Expira: 19&nbsp;de octubre&nbsp;de 2023
-                
-               &nbsp;</span>
-              </p>
-            </div>
+        </section>
+        <section class="s_text_block o_colored_level pb24 pt32 bg-600" data-snippet="s_text_block"">
+          <div class=" o_we_shape o_web_editor_Airy_07"
+          style="background-image: url('https://skillt.odoo.com/web_editor/shape/web_editor/Airy/07.svg?c2=%23CED4DA');">
+      </div>
+      <div class="s_allow_columns container">
+        <div class="row">
+          <div class="o_colored_level col-lg-12" style="">
+            <p style="text-align: center;">
+              <font style="" class="text-o-color-4">ID Certificado: {{cert_id}}</font>
+            </p>
+            <p style="text-align: center;">
+              <span style="font-size: 14px;">Otorgado: 21 de octubre de 2022
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Expira: 21 de octubre de 2023
+              </span>
+            </p>
           </div>
         </div>
+      </div>
       </section>
-      <section class="s_text_block o_colored_level bg-100 pb0 pt16" data-snippet="s_text_block" data-name="Text" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip437101">
+      <section class="s_text_block o_colored_level bg-100 pb0 pt16" data-snippet="s_text_block" data-name="Text"
+        style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip437101">
         <div class="s_allow_columns container" data-original-title="" title="" aria-describedby="tooltip782422">
-          <p style="text-align: center;" data-original-title="" title="" aria-describedby="tooltip421111"><img class="img-fluid o_we_custom_image" src="/web/image/448-3907a287/linkedin-logo.png" alt="" data-original-title="" title="" aria-describedby="tooltip860302" data-original-id="447" data-original-src="/web/image/447-af74f083/linkedin-logo.png" data-mimetype="image/png" data-resize-width="128" style="transform: scaleX(0.29) scaleY(0.29);" loading="lazy"/>&nbsp;Añade este certificado a tu perfil de LinkedIn&nbsp; &nbsp; &nbsp;&nbsp;<a class="btn btn-fill-primary rounded-circle" href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=Certificado%20Skillt%20de%20Habilidades%20en%20Microsoft%20Excel&amp;organizationId=86077140&amp;issueYear =2022&amp;issueMonth=10&amp;expirationYear=2023&amp;expirationMonth=10&amp;certUrl=https%3A%2F%2Fskillt.odoo. .com%2Fcert%2Fa9364312&amp;certId=a9364312-61e9b763-77f7e3b8-58742a7f-f3bd9975" target="_blank" data-original-title="" title=""><font data-original-title="" title="" aria-describedby="tooltip981533" style="background-color: inherit;">Añadir Certificado</font></a></p>
+          <p style="text-align: center;" data-original-title="" title="" aria-describedby="tooltip421111">
+            <img class="img-fluid o_we_custom_image" src="https://skillt.io/cert/assets/linkedin-logo.png"
+              alt="" data-original-title="" title="" aria-describedby="tooltip860302"
+              data-original-id="447" data-original-src="/web/image/447-af74f083/linkedin-logo.png"
+              data-mimetype="image/png" data-resize-width="128"
+              style="transform: scaleX(0.29) scaleY(0.29);" loading="lazy" />&nbsp;Añade este
+            certificado a tu perfil de LinkedIn&nbsp; &nbsp; &nbsp;&nbsp;<a
+              class="btn btn-fill-primary rounded-circle"
+              href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Certificado%20Skillt%20de%20Habilidades%20en%20Microsoft%20Excel&organizationId=86077140&issueYear=2022&issueMonth=10&expirationYear=2023&expirationMonth=10&certUrl=https%3A%2F%2Fskillt.io%2Fcert%2F{{cert_url_id}}&certId={{cert_id}}"
+              target="_blank" data-original-title="" title="">
+              <font data-original-title="" title="" aria-describedby="tooltip981533"
+                style="background-color: inherit; color: #ffffff">Añadir Certificado</font>
+            </a></p>
         </div>
       </section>
-      <section class="s_text_block o_colored_level pt72 pb72 s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center" data-snippet="s_text_block" data-name="Text" style="background-image: url(&#34;/web/image/362-c14ea985/stingers-white.png&#34;); position: relative;" data-original-title="" title="" aria-describedby="tooltip178033" data-scroll-background-ratio="0" data-oe-shape-data="{&#34;shape&#34;:&#34;web_editor/Origins/02_001&#34;,&#34;flip&#34;:[]}" data-original-id="361" data-original-src="/web/image/361-d751e054/stingers-white.png" data-mimetype="image/png" data-resize-width="688">
+      <section
+        class="s_text_block o_colored_level pt72 pb72 s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"
+        data-snippet="s_text_block" data-name="Text"
+        style="background-image: url(&#34;https://skillt.io/cert/assets/stingers-white.png&#34;); position: relative;"
+        data-original-title="" title="" aria-describedby="tooltip178033" data-scroll-background-ratio="0"
+        data-oe-shape-data="{&#34;shape&#34;:&#34;web_editor/Origins/02_001&#34;,&#34;flip&#34;:[]}"
+        data-original-id="361" data-original-src="https://skillt.io/cert/assets/stingers-white.png"
+        data-mimetype="image/png" data-resize-width="688">
         <div class="s_allow_columns container">
           <div class="row">
             <div class="o_colored_level col-lg-5 pt0">
-              <div class="s_text_highlight my-3 w-100 o_colored_level text-center" data-snippet="s_text_highlight" data-name="Text Highlight" style="background-image: radial-gradient(circle at 50% 50%, rgb(255, 131, 135) 0%, rgb(199, 45, 91) 100%) !important;">
+              <div class="s_text_highlight my-3 w-100 o_colored_level text-center"
+                data-snippet="s_text_highlight" data-name="Text Highlight"
+                style="background-image: radial-gradient(circle at 50% 50%, rgb(255, 131, 135) 0%, rgb(199, 45, 91) 100%) !important;">
                 <div class="container">
                   <h6 style="text-align: left;">
                     <span style="font-size: 12px;">
                       <font class="text-o-color-4">NIVEL</font>
                     </span>
-                    <br/>
+                    <br />
                   </h6>
                   <h4 style="text-align: left;">
                     <font class="text-o-color-4">Professional Skilled</font>
-                    <br/>
+                    <br />
                     <font class="text-o-color-4">en Microsoft Excel</font>
                   </h4>
                 </div>
               </div>
             </div>
-            <div class="o_colored_level col-lg-7" style="" data-original-title="" title="" aria-describedby="tooltip282539">
+            <div class="o_colored_level col-lg-7" style="" data-original-title="" title=""
+              aria-describedby="tooltip282539">
               <p>
-                
-                
-             Una persona con certificación Professional Skilled cuenta con habilidades que están por encima del común. Demuestra dominio y confianza por la experiencia adquirida en el tiempo, siendo capaz de solucionar problemas operativos, técnicos y conceptuales. Entiende lo que hay detrás de los desafíos que se le plantean creando nuevas maneras de brindar respuestas y es capaz incluso de brindar soluciones a nivel estratégico. Puede desempeñarse en un amplio espectro de escenarios y solucionar un gran número de problemas.<br/><br/>Con Excel puede manejar datos usando funciones avanzadas financieras, estadísticas y funciones lógicas. No tiene problemas trabajando con gráficos. Es capaz de editar el diseño de las hojas de cálculos y presentar la información con formatos condicionales y creación de tablas. Es capaz de desarrollar fórmulas propias para obtener la información requerida. Reconoce macros y podría trabajar con ellas. Por supuesto, domina totalmente las funciones matemáticas, filtros, autosumas y recopilación de datos.<br/></p>
+                Una persona con certificación Professional Skilled cuenta con habilidades que están
+                por encima del común. Demuestra dominio y confianza por la experiencia adquirida en
+                el tiempo, siendo capaz de solucionar problemas operativos, técnicos y conceptuales.
+                Entiende lo que hay detrás de los desafíos que se le plantean creando nuevas maneras
+                de brindar respuestas y es capaz incluso de brindar soluciones a nivel estratégico.
+                Puede desempeñarse en un amplio espectro de escenarios y solucionar un gran número
+                de problemas.<br /><br />
+                Con Excel puede manejar datos usando funciones avanzadas
+                financieras, estadísticas y funciones lógicas. No tiene problemas trabajando con
+                gráficos. Es capaz de editar el diseño de las hojas de cálculos y presentar la
+                información con formatos condicionales y relacionando tablas. Es capaz de desarrollar
+                fórmulas propias para obtener la información requerida. Reconoce macros y podría
+                trabajar con ellas. Por supuesto, domina totalmente las funciones matemáticas,
+                filtros, autosumas y recopilación de datos.<br /></p>
             </div>
           </div>
         </div>
       </section>
-      <section class="s_text_block pt40 pb40 o_colored_level" data-snippet="s_text_block" data-name="Text" style="background-image: none; position: relative;" data-oe-shape-data="{&#34;shape&#34;:&#34;web_editor/Origins/18&#34;,&#34;colors&#34;:{&#34;c1&#34;:&#34;#FFE7CE&#34;},&#34;flip&#34;:[]}" data-original-title="" title="" aria-describedby="tooltip959">
-        <div class="o_we_shape o_web_editor_Origins_18" style="background-image: url(&#34;/web_editor/shape/web_editor/Origins/18.svg?c1=%23FFE7CE&#34;);"></div>
+      <section class="s_text_block pt40 pb40 o_colored_level" data-snippet="s_text_block" data-name="Text"
+        style="background-image: none; position: relative;"
+        data-oe-shape-data="{&#34;shape&#34;:&#34;https://skillt.odoo.com/web_editor/shape/web_editor/Origins/18.svg&#34;,&#34;colors&#34;:{&#34;c1&#34;:&#34;#FFE7CE&#34;},&#34;flip&#34;:[]}"
+        data-original-title="" title="" aria-describedby="tooltip959">
+        <div class="o_we_shape o_web_editor_Origins_18"
+          style="background-image: url(&#34;https://skillt.odoo.com/web_editor/shape/web_editor/Origins/18.svg?c1=%23FFE7CE&#34;);">
+        </div>
         <div class="s_allow_columns container">
           <div class="row">
             <div class="o_colored_level col-lg-2 offset-lg-1 pt40" style="">
-              <h4><span style="font-size: 10px;">CONOCE LOS</span><br/>Niveles Skillt</h4>
+              <h4><span style="font-size: 10px;">CONOCE LOS</span><br />Niveles Skillt</h4>
             </div>
             <div class="o_colored_level col-lg-2 pt16" style="">
               <p>
-                <img class="img-fluid o_we_custom_image mx-auto d-block" src="/web/image/321-11849fe4/skillt-starter-skilled-minibadge.png" alt="" data-original-id="321" data-original-src="/web/image/321-11849fe4/skillt-starter-skilled-minibadge.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip33076" loading="lazy" style=""/>
-                <br/>
+                <img class="img-fluid o_we_custom_image mx-auto d-block"
+                  src="https://skillt.io/cert/assets/skillt-starter-skilled-minibadge.png" alt=""
+                  data-original-id="321"
+                  data-original-src="https://skillt.io/cert/assets/skillt-starter-skilled-minibadge.png"
+                  data-mimetype="image/png" data-original-title="" title=""
+                  aria-describedby="tooltip33076" loading="lazy" style="" />
+                <br />
               </p>
               <p>
                 <strong>Starter Skilled</strong>
-                <span style="font-size: 14px;">Habilidades mínimas pero suficientes para introducirse. Hay conocimientos elementales y capacidad de solucionar problemas sencillos.</span>
+                <span style="font-size: 14px;">Habilidades mínimas pero suficientes para
+                  introducirse. Hay conocimientos elementales y capacidad de solucionar problemas
+                  sencillos.</span>
               </p>
             </div>
             <div class="o_colored_level col-lg-2 pt16">
               <p>
-                <img class="img-fluid o_we_custom_image mx-auto d-block" src="/web/image/322-012df96e/skillt-competent-skilled-minibadge.png" alt="" data-original-id="322" data-original-src="/web/image/322-012df96e/skillt-competent-skilled-minibadge.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip668514" loading="lazy" style=""/>
-                <br/>
+                <img class="img-fluid o_we_custom_image mx-auto d-block"
+                  src="https://skillt.io/cert/assets/skillt-competent-skilled-minibadge.png" alt=""
+                  data-original-id="322"
+                  data-original-src="https://skillt.io/cert/assets/skillt-competent-skilled-minibadge.png"
+                  data-mimetype="image/png" data-original-title="" title=""
+                  aria-describedby="tooltip668514" loading="lazy" style="" />
+                <br />
               </p>
               <p>
                 <strong>Competent Skilled</strong>
-                <span style="font-size: 14px;">Dominio de habilidades elementales, uso de mayores recursos y capacidad de solucionar problemas comunes a nivel operacional.</span>
+                <span style="font-size: 14px;">Dominio de habilidades elementales, uso de mayores
+                  recursos y capacidad de solucionar problemas comunes a nivel operacional.</span>
               </p>
             </div>
-            <div class="o_colored_level col-lg-2 border pt16 rounded shadow bg-white" style="border-width: 2px !important; border-color: rgb(255, 156, 0) !important; border-radius: 10px !important;">
+            <div class="o_colored_level col-lg-2 border pt16 rounded shadow bg-white"
+              style="border-width: 2px !important; border-color: rgb(255, 156, 0) !important; border-radius: 10px !important;">
               <p>
-                <img class="img-fluid o_we_custom_image o_animating mx-auto d-block" src="/web/image/355-a00c37fe/skillt-professional-skilled-minibadge.png" alt="" data-original-id="323" data-original-src="/web/image/323-a4aa2e62/skillt-professional-skilled-minibadge.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip492822" style="" loading="lazy"/>
-                <br/>
+                <img class="img-fluid o_we_custom_image o_animating mx-auto d-block"
+                  src="https://skillt.io/cert/assets/skillt-professional-skilled-minibadge.png" alt=""
+                  data-original-id="323"
+                  data-original-src="https://skillt.io/cert/assets/skillt-professional-skilled-minibadge.png"
+                  data-mimetype="image/png" data-original-title="" title=""
+                  aria-describedby="tooltip492822" style="" loading="lazy" />
+                <br />
               </p>
               <p>
                 <strong>Professional Skilled</strong>
-                <span style="font-size: 14px;">Habilidades superiores, dominio de un amplio conjunto de herramientas de Excel para solucionar problemas operativos y estratégicos.</span>
+                <span style="font-size: 14px;">Habilidades superiores, dominio de un amplio conjunto
+                  de herramientas de Excel para solucionar problemas operativos y
+                  estratégicos.</span>
               </p>
             </div>
             <div class="o_colored_level col-lg-2 pt16">
               <p>
-                <img class="img-fluid o_we_custom_image mx-auto d-block" src="/web/image/324-dd8b4c09/skillt-expert-skilled-minibadge.png" alt="" data-original-id="324" data-original-src="/web/image/324-dd8b4c09/skillt-expert-skilled-minibadge.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip923868" loading="lazy" style=""/>
-                <br/>
+                <img class="img-fluid o_we_custom_image mx-auto d-block"
+                  src="https://skillt.io/cert/assets/skillt-expert-skilled-minibadge.png" alt=""
+                  data-original-id="324"
+                  data-original-src="https://skillt.io/cert/assets/skillt-expert-skilled-minibadge.png"
+                  data-mimetype="image/png" data-original-title="" title=""
+                  aria-describedby="tooltip923868" loading="lazy" style="" />
+                <br />
               </p>
               <p>
                 <strong>Expert Skilled</strong>
-                <span style="font-size: 14px;">Habilidades exclusivas, basadas en amplia experiencia. Soluciona problemas muy complejos y es capaz de entrenar a otros.</span>
+                <span style="font-size: 14px;">Habilidades exclusivas, basadas en amplia
+                  experiencia. Soluciona problemas muy complejos y es capaz de entrenar a
+                  otros.</span>
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="s_call_to_action pt48 pb24 o_colored_level o_cc o_cc3" data-snippet="s_call_to_action" data-name="Call to Action" style="background-color: rgba(0, 0, 0, 0) !important; background-image: linear-gradient(90deg, rgb(79, 79, 79) 0%, rgb(37, 66, 68) 100%);" data-original-title="" title="" aria-describedby="tooltip882086">
+      <section class="s_call_to_action pt48 pb24 o_colored_level o_cc o_cc3" data-snippet="s_call_to_action"
+        data-name="Call to Action"
+        style="background-color: rgba(0, 0, 0, 0) !important; background-image: linear-gradient(90deg, rgb(79, 79, 79) 0%, rgb(37, 66, 68) 100%);"
+        data-original-title="" title="" aria-describedby="tooltip882086">
         <div class="container">
           <div class="row">
             <div class="col-lg-9 pb16 o_colored_level">
-              <h3>Certifica&nbsp;tus habilidades en Microsoft Excel<br/></h3>
-              <h6>Desafíate y pon a prueba&nbsp;hoy tu talento.&nbsp;<br/></h6>
+              <h3>Certifica&nbsp;tus habilidades en Microsoft Excel<br /></h3>
+              <h6>Desafíate y pon a prueba&nbsp;hoy tu talento.&nbsp;<br /></h6>
             </div>
-            <div class="col-lg-3 pt8 o_colored_level" style="" data-original-title="" title="" aria-describedby="tooltip698981">
+            <div class="col-lg-3 pt8 o_colored_level" style="" data-original-title="" title=""
+              aria-describedby="tooltip698981">
               <p style="text-align: right;">
-                <a class="mb-2 btn btn-fill-primary rounded-circle btn-lg" href="https://skillt.io/beta" data-original-title="" title="">
-                  <font class="text-white" data-original-title="" title="" aria-describedby="tooltip987785">Quiero certificarme</font>
+                <a class="mb-2 btn btn-fill-primary rounded-circle btn-lg" href="https://skillt.io/beta"
+                  data-original-title="" title="">
+                  <font class="text-white" data-original-title="" title=""
+                    aria-describedby="tooltip987785">Quiero certificarme</font>
                 </a>
-                <br/>
+                <br />
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="s_text_image pb32 o_colored_level pt64 o_cc o_cc2 bg-white" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+      <section class="s_text_image pb32 o_colored_level pt64 o_cc o_cc2 bg-white" data-snippet="s_image_text"
+        data-name="Image - Text" style="background-image: none;">
         <div class="container">
-          <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip551987">
+          <div class="row align-items-center" data-original-title="" title=""
+            aria-describedby="tooltip551987">
             <div class="pt16 pb16 o_colored_level col-lg-4">
-              <img class="img-fluid o_we_custom_image mx-auto d-block" src="/web/image/366-4e2131a9/skillt-logo-dark.png" alt="" data-original-id="366" data-original-src="/web/image/366-4e2131a9/skillt-logo-dark.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip846875" style="width: 50% !important;" loading="lazy"/>
-              <br/>
+              <img class="img-fluid o_we_custom_image mx-auto d-block"
+                src="https://skillt.io/cert/assets/skillt-logo-dark.png" alt="" data-original-id="366"
+                data-original-src="https://skillt.io/cert/assets/skillt-logo-dark.png"
+                data-mimetype="image/png" data-original-title="" title=""
+                aria-describedby="tooltip846875" style="width: 50% !important;" loading="lazy" />
+              <br />
             </div>
-            <div class="pt16 pb16 o_colored_level col-lg-7" data-original-title="" title="" aria-describedby="tooltip69062">
+            <div class="pt16 pb16 o_colored_level col-lg-7" data-original-title="" title=""
+              aria-describedby="tooltip69062">
               <h6>
                 <font class="text-o-color-5">Acerca de Skillt</font>
               </h6>
-              <p data-original-title="" title="" aria-describedby="tooltip740006">Buscamos visibilizar el talento humano innovando la forma de valorar las habilidades&nbsp;<span style="color: rgb(33, 37, 41)">requeridas para una carrera profesional exitosa,</span> mediante evaluaciones diseñadas por expertos y enfocadas&nbsp;en la solución de problemas, certificando tu capacidad de aplicar tu&nbsp;conocimiento y experiencia de manera creativa&nbsp;a los desafíos profesionales que los trabajos&nbsp;actuales buscan resolver.&nbsp;</p>
+              <p data-original-title="" title="" aria-describedby="tooltip740006">Buscamos visibilizar
+                el talento humano innovando la forma de valorar las habilidades requeridas para una
+                carrera profesional
+                exitosa, mediante evaluaciones diseñadas por expertos y enfocadas en
+                la solución de problemas, certificando tu capacidad de aplicar tu conocimiento
+                y experiencia de manera creativa a los desafíos profesionales que los
+                trabajos actuales buscan resolver.</p>
             </div>
           </div>
         </div>
       </section>
-    </div>
-                </main>
-                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
-                    <div id="footer" class="oe_structure oe_structure_solo">
-      
-      
-    </div>
-  <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
-                        <div class="container py-3">
-                            <div class="row">
-                                <div class="col-sm text-center text-sm-left text-muted">
-                                    <span class="o_footer_copyright_name mr-2">
-      <span style="font-size: 9px;">Copyright 2022 ©Skillt</span>
-    </span>
   </div>
-                                <div class="col-sm text-center text-sm-right o_not_editable">
-        <div class="o_brand_promotion">
-        Con tecnología de 
-            <a target="_blank" class="badge badge-light" href="http://www.odoo.com?utm_source=db&amp;utm_medium=website">
-                <img alt="Odoo" src="/web/static/img/odoo_logo_tiny.png" style="height: 1em; vertical-align: baseline;" loading="lazy"/>
-            </a>
-        - 
-                Crea una <a target="_blank" href="http://www.odoo.com/app/website?utm_source=db&amp;utm_medium=website">web gratuita</a>
-            
+  </main>
+  <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+    <div id="footer" class="oe_structure oe_structure_solo">
+
+
     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        
-        </body>
+    <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-sm text-center text-sm-left text-muted">
+            <span class="o_footer_copyright_name mr-2">
+              <span style="font-size: 9px;">Copyright 2022 © Skillt</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+</body>
+
 </html>
